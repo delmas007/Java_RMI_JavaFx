@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="629.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TRUCController">
+   <children>
+      <TextField fx:id="question" layoutX="137.0" layoutY="66.0" onAction="#entrez" prefHeight="29.0" prefWidth="356.0" promptText="Entrez votre question" />
+      <TextArea fx:id="reponse" editable="false" layoutX="138.0" layoutY="211.0" prefHeight="200.0" prefWidth="356.0" promptText="La reponse s'affichera ici" />
+   </children>
+</AnchorPane>
